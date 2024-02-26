@@ -4,25 +4,23 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" content="Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. However, can watermarks survive translation?">
+  <meta property="og:title" content="Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models"/>
+  <meta property="og:description" content="Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. However, can watermarks survive translation?"/>
+  <meta property="og:url" content="https://cross-lingual-watermark.github.io"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image" content="static/image/Fig3.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models">
+  <meta name="twitter:description" content="Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. However, can watermarks survive translation?">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:image" content="static/image/Fig3.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="Text watermark, cross-lingual, consistency, robustness">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
 
   <title> Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models </title>
   <link rel="icon" type="image/x-icon" href="static/images/watermark.png">
@@ -46,88 +44,80 @@
 </head>
 <body>
 
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models</h1>
-            <div class="is-size-5 publication-authors">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Can Watermarks Survive Translation?</h1>
+          <h1 class="title is-2 publication-title">On the Cross-lingual Consistency of Text Watermark for Large Language Models</h1>
+          <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://zwhe99.github.io/" target="_blank">Zhiwei He</a><sup>*,1</sup>,</span>
-                <span class="author-block">
-                  <a href="https://github.com/Zhou-bl" target="_blank">Binglin Zhou</a><sup>*,1</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=a3UulbMAAAAJ&hl=zh-CN" target="_blank">Hongkun Hao</a><sup>1</sup>,
-                    <span class="author-block">
-                      <a href="https://exlaw.github.io/" target="_blank">Aiwei Liu</a><sup>2</sup>,
-                      <span class="author-block">
-                        <a href="http://xingwang4nlp.com/" target="_blank">Xing Wang</a><sup>3</sup>,
-                        <span class="author-block">
-                          <a href="http://www.zptu.net/" target="_blank">Zhaopeng Tu</a><sup>3</sup>,
-                          <span class="author-block">
-                            <a href="https://bcmi.sjtu.edu.cn/home/zhangzs/" target="_blank">Zhuosheng Zhang</a><sup>1</sup>,
-                            <span class="author-block">
-                              <a href="https://wangruinlp.github.io/" target="_blank">Rui Wang</a><sup>†,1</sup>
-                            </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                  </div>
+                <a href="https://zwhe99.github.io/" target="_blank">Zhiwei He</a><sup>*1</sup>,
+                <a href="https://github.com/Zhou-bl" target="_blank">Binglin Zhou</a><sup>*1</sup>,
+                <a href="https://scholar.google.com/citations?user=a3UulbMAAAAJ&hl=zh-CN" target="_blank">Hongkun Hao</a><sup>1</sup>,
+                <a href="https://exlaw.github.io/" target="_blank">Aiwei Liu</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="http://xingwang4nlp.com/" target="_blank">Xing Wang</a><sup>2</sup>,
+                <a href="http://www.zptu.net/" target="_blank">Zhaopeng Tu</a><sup>2</sup>,
+                <a href="https://bcmi.sjtu.edu.cn/home/zhangzs/" target="_blank">Zhuosheng Zhang</a><sup>1</sup>,
+                <a href="https://wangruinlp.github.io/" target="_blank">Rui Wang</a><sup>†1</sup>
+              </span>
+          </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">
-                      <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Tsinghua University, <sup>3</sup>Tencent AI Lab
-                    </span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution, <sup>†</sup>Indicates Corresponding Author</small></span>
-                  </div>
+          <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>Tencent AI Lab, <sup>3</sup>Tsinghua University
+              </span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author</small></span>
+          </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2402.14007.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-
-                  <span class="link-block">
-                    <a href="https://github.com/zwhe99/X-SIR" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
+          <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/2402.14007" target="_blank"
+                  <a href="https://arxiv.org/pdf/2402.14007.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
+
+            <span class="link-block">
+              <a href="https://github.com/zwhe99/X-SIR" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+
+          <!-- ArXiv abstract Link -->
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2402.14007" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
             </div>
           </div>
+
+          <a name="intro">
+            <img src="static/images/intro.png" alt="intro" style="width: 300pt;"/>
+          </a>
         </div>
       </div>
     </div>
   </div>
 </section>
-
-
 
 
 <!-- Paper abstract -->
@@ -138,7 +128,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. In this study, we introduce the concept of "cross-lingual consistency" in text watermarking, which assesses the ability of text watermarks to maintain their effectiveness after being translated into other languages. Preliminary empirical results from two LLMs and three watermarking methods reveal that current text watermarking technologies lack consistency when texts are translated into various languages. Based on this observation, we propose a Cross-lingual Watermark Removal Attack (CWRA) to bypass watermarking by first obtaining a response from an LLM in a pivot language, which is then translated into the target language. CWRA can effectively remove watermarks by reducing the Area Under the Curve (AUC) from 0.95 to 0.67 without performance loss. Furthermore, we analyze two key factors that contribute to the cross-lingual consistency in text watermarking and propose a defense method that increases the AUC from 0.67 to 0.88 under CWRA.
+            Text watermarking technology aims to tag and identify content produced by large language models (LLMs) to prevent misuse. However, can watermarks survive translation?
+          </p>
+          <p>
+            We complete a closed-loop study on this question:<br>
+            (1) Evaluation: We define the concept of cross-lingual consistency in text watermarking, which assesses the ability of text watermarks to maintain their effectiveness after being translated into other languages. Unfortunately, we find that current watermarking methods struggle to maintain their watermark strengths across different languages.
+          </p>
+          <p>
+            (2) Attacking: We propose the cross-lingual watermark removal attack (CWRA). By wrapping the query to the LLM in a pivot language, it efficiently eliminates watermarks (AUC: 0.95 -> 0.67) without compromising performance.
+          </p>
+          <p>
+            (3) Defending: We analyze two key factors that contribute to the cross-lingual consistency in text watermarking and propose a potential defense method. Despite its limitations, it increases the AUC from 0.67 to 0.88 under CWRA.
+          </p>
         </div>
       </div>
     </div>
@@ -147,238 +148,149 @@
 <!-- End paper abstract -->
 
 
-<section class="hero is-normal">
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Cross-lingual Consistency of Watermark</h2>
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <div class="Text" style="text-align: left; font-size: larger;">
-            In this section, we test the cross-lingual consistency of text watermarking. 
-            The text watermark algorithm we use is KGW, UW and SIR. 
-            We use English prompt as the input of the large language model, and then translate the output into different languages.
-            In this work, we translate the output into Chinese, French, German and Janpanese using gpt-3.5-turbo.
-            <a href="#Fig1">Fig1</a> shows the changes of watermark strength score after translation.
-            Experimental results show that KGW, UW and SIR lack cross-lingual consistency.
+          <h2 class="title is-3">Evaluation:<br> Cross-lingual Consistency of Watermark</h2>
+          <div class="Text" style="text-align: left; font-size: medium;">
             <div class="item">
-              <!-- Your image here -->
               <a name="Fig1">
                 <img src="static/images/Fig1.png" alt="Cross-lingual Consistency of Text Watermark" style="margin: 0 auto;"/>
               </a>
               <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                Fig1: Watermark strength score (detection score) after translation.
+                Fig 1: Watermark strength score (detection score) after translation.
               </h2>
             </div>
-            <class="Text" style="text-align: left; font-size: large;">
-              <a href="#Fig2">Fig2</a> shows the <b>PCC</b> (Pearson Correlation Coefficient) and <b>RE</b> (Relative Error) of the watermark strength score after translation.
-              The <b>PCC</b> results show that the similar language pairs (En&Fr, En&De) have higher <b>PCC</b> values than the dissimilar language pairs (En&Zh, En&Ja).
-              While the <b>RE</b> results show that <b>SIR</b> reserves the watermark strength score better than <b>UW</b> and <b>KGW</b> after translation.
-              In another word, <b>SIR</b> has better cross-lingual consistency than <b>UW</b> and <b>KGW</b>.
-            </div>
-              
-            <div class="item">
-              <!-- Your image here -->
-              <a name="Fig2">
-                <img src="static/images/Fig2.png" alt="PCC and RE result of translated text"/>
-              </a>
-              <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                Fig2: <b>PCC</b> and <b>RE</b> of the watermark strength score after translation.
-              </h2>
-            </div>
+            <br>
+            Our tested text watermarking methods include KGW[1], UW[2], and SIR[3].
+            <a href="#Fig1">Fig 1</a> shows significant drops in the watermark strengths after translation.
+            That is, current watermarking methods lack cross-lingual consistency.
           </div>
         </div>
       </div>
     </div>
-    
-    
 </section>
 
-
-
-<section class="hero is-normal">
+<section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Cross-lingual Watermark Removal Attack (CWRA)</h2>
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <div class="Text" style="text-align: left; font-size: larger;">
-            In the previous section, we focus on scenarios where the response of LLM is translated into other languages.
-            However, an attacker typically expects a response from the LLM in the same language as the prompt while removing watermarks.
-            To bridge this gap, we introduce the Cross-lingual Watermark Removal Attack (CWRA) in this section, constituting a complete attack process and posing a more significant challenge to text watermarking than paraphrasing and re-translation attacks.
-            <div class="Text" style="text-align: left; font-size: large;">
-              <a ref="#Fig3">Fig3</a> shows the process of CWRA.
-              Instead of feeding the original prompt into the LLM, the attacker initiates the attack by translating the prompt into a pivot language named the pivot prompt.
-              The LLM receives the pivot prompt and provides a watermarked response in the pivot language.
-              The attacker then translates the pivot response back into the original language.
-              This approach allows the attacker to obtain the response in the original language.
-              Due to the inherent challenges in maintaining cross-lingual consistency, the watermark would be effectively eliminated during the second translation step.
-            </div>
+          <h2 class="title is-3">Attacking:<br> Cross-lingual Watermark Removal Attack (CWRA)</h2>
+          <h3 class="title is-4" style="text-align: left;">Method</h3>
+          <div class="Text" style="text-align: left; font-size: medium;">
             <div class="item">
               <!-- Your image here -->
               <a name="Fig3">
                 <img src="static/images/Fig3.png" alt="CWRA pipeline" style="margin: 0 auto;"/>
               </a>
               <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                Fig3: The pipeline of CWRA. We select Chinese as the pivot language as an example.
+                Fig 3: The pipeline of CWRA. We select Chinese as the pivot language as an example.
               </h2>
             </div>
-            <div class="Text" style="text-align: left; font-size: large;">
-              To assess the practicality of attack methods, we consider two downstream tasks: text summarization and question answering.
-              <a href="#Fig4">Fig4</a> shows the ROC curves of the watermark strength score under different attack methods.
-            </div>
-              
+            <br>
+            An attacker that wants to remove the watermark from LLM-generated response typically do not want to change the language of the response.
+            To bridge this gap, we introduce the Cross-lingual Watermark Removal Attack (CWRA), as shown in <a href="#Fig3">Fig 3</a>.
+            It wraps the query to the LLM in a pivot language, which is then translated back into the original language.
+            <br>
+            <br>
+
+            <h3 class="title is-4" style="text-align: left;">Experiment</h3>
             <div class="item">
               <!-- Your image here -->
               <a name="Fig4">
                 <img src="static/images/Fig4.png" alt="AUC of the watermark strength score under different attack methods."/>
               </a>
               <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                Fig4: ROC curves of the watermark strength score under different attack methods.
+                Fig 4: ROC curves of the watermark detection under different attack methods.
               </h2>
             </div>
-            <div class="Text" style="text-align: left; font-size: large;">
-              <a href="#Fig5">Fig5</a> shows the text quality under different attack methods.
-            </div>
+            <br>
             <div class="item">
               <!-- Your image here -->
               <a name="Fig5">
                 <img src="static/images/Fig5.png" alt="Text quality"/>
               </a>
               <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                Fig5: Text quality under different attack methods.
+                Fig 5: Text quality under different attack methods.
               </h2>
-
-              <div class="Text" style="text-align: left; font-size: large;">
-                Among the compared methods, CWRA stands out for its superior performance.
-                Considering that the same translator and paraphraser were used across all methods, we speculate that this is because the <b>Baichuan-7B</b> model used in our experiments performs even better in the pivot language (Chinese) than in the original language (English).
-                This finding implies that a potential attacker could strategically choose a pivot language at which the LLM excels to perform CWRA, thereby achieving the best text quality while removing the watermark.
-              </div>
-
             </div>
+            <br>
+
+            <a href="#Fig4">Fig 4</a> and <a href="#Fig4">Fig 5</a> show the detection AUC curves and text quality under different attack methods, respectively.
+            Among all the compared methods, CWRA stands out for its superior performance, as as it achieves the lowest AUC and the highest text quality.
           </div>
         </div>
       </div>
     </div>
-    
 </section>
 
-<section class="hero is-normal">
+<section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Improving Cross-lingual Consistency</h2>
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <div class="Text" style="text-align: left; font-size: larger;">
-            Up to this point, we have observed the challenges associated with text watermarking in cross-lingual scenarios.
-            In this section, we first analyze two key factors essential for achieving cross-lingual consistency.
-            Based on our analysis, we propose a defense method against CWRA.
-            <div class="Text" style="text-align: left; font-size: large;">
-              KGW-based watermarking methods fundamentally depend on the partition of the vocabulary.
-              Therefore, cross-lingual consistency aims to ensure that the green tokens in the watermarked text will still be recognized as green tokens after being translated into other languages.
-              We analyze the two key factors that contribute to the cross-lingual consistency in text watermarking:
-              <ul>
-                <li><b>Factor 1</b>: <i>Cross-lingual semantic clustering of the vocabulary.</i> Semantically similar tokens must be in the same partition, either green or red lists. </li>
-                <li><b>Factor 2</b>: <i>Cross-lingual semantic robust vocabulary partition.</i> For semantically similar prefixes in different languages: <b>I watch</b> and <b>我 看</b>, the partitions of the vocabulary are the same. </li>
-              </ul>
-            </div>
+          <h2 class="title is-3">Defending:<br>Improving Cross-lingual Consistency</h2>
+          <div class="Text" style="text-align: left; font-size: medium;">
             <div class="item">
               <!-- Your image here -->
-              <a name="Fig6">
-                <img src="static/images/Fig6.png" alt="CWRA pipeline" style="margin: 0 auto;"/>
-              </a>
+              <table><tr>
+                <td><a name="Fig7">
+                  <img src="static/images/Fig7.png" alt="AUC of the watermark strength score under different attack methods."/>
+                </a>
+                <h2 class="subtitle has-text-centered" style="font-size: medium;">
+                  Fig 7: ROC curves of X-SIR and SIR under CWRA and no attack.
+                </h2>
+                </td>
+                <td><a name="Fig8">
+                  <img src="static/images/Fig8.png" alt="Text quality"/>
+                </a>
+                <h2 class="subtitle has-text-centered" style="font-size: medium;">
+                  Fig 8: Text quality of X-SIR and SIR.
+                </h2>
+                </td>
+              </tr>
+              </table>
             </div>
-            <div class="Text" style="text-align: left; font-size: large;">
-              To satisfy the factor 2: we can use a multilingual embedding model to obtain the similar embeddings of the tokens in different languages with similar semantic.
-              Then to satisfy the factor 1, we introduce a cross-lingual semantic clustering of the vocabulary.
-              We split the vocabulary into different clusters: in each cluster, the tokens are semantically similar (even in different languages).
-              For example, the token <b>watch</b> and <b>看</b> are in the same cluster.
-              Then for the tokens in the same cluster, we add the same bias to their logits when generating the watermarked text.
-              More details can be found in our paper.
-              We name the proposed method as <b>X-SIR</b>.
-              The <a href="#Fig7">Fig7</a> and <a href="#Fig8">Fig8</a> show the performance of <b>X-SIR</b> under CWRA.
-              <div class="item">
-                <!-- Your image here -->
-                <table><tr>
-                  <td><a name="Fig7">
-                    <img src="static/images/Fig7.png" alt="AUC of the watermark strength score under different attack methods."/>
-                  </a>
-                  <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                    Fig7: ROC curves of X-SIR and SIR under CWRA.
-                  </h2>
-                  </td>
-                  <td><a name="Fig8">
-                    <img src="static/images/Fig8.png" alt="Text quality"/>
-                  </a>
-                  <h2 class="subtitle has-text-centered" style="font-size: medium;">
-                    Fig8: Text quality of X-SIR and SIR.
-                  </h2>
-                  </td>
-                </tr>
-                </table>
-                
-              </div>
-            </div>
+            <br>
+
+            We first analyze two key factors essential for achieving cross-lingual consistency (detailed in the <a href="https://arxiv.org/pdf/2402.14007.pdf">paper</a>).
+            By reaching these two factors, our defense method, X-SIR, significantly improves the AUC and text quality under CWRA (<a href="#Fig7">Fig 7</a> and <a href="#Fig8">Fig 8</a>).
+            However, the defense method still has limitations, and we 
           </div>
         </div>
       </div>
     </div>
     
 </section>
-
-<section class="hero is-normal is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Conclusion</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div class="Text" style="text-align: left; font-size: larger;">
-            This work aims to investigate the cross-lingual consistency of watermarking methods for LLMs.
-            We first characterize and evaluate the cross-lingual consistency of current watermarking techniques for LLMs, revealing that current watermarking methods struggle to maintain their watermark strengths across different languages.
-            Based on this observation, we propose the cross-lingual watermark removal attack (CWRA), which significantly challenges watermark robustness by efficiently eliminating watermarks without compromising performance.
-            Through the analysis of two primary factors that influence cross-lingual consistency, we propose X-SIR as a defense strategy against CWRA.
-            Despite its limitations, this approach greatly improves the AUC and paves the way for future research.
-            Overall, this work completes a closed loop in the study of cross-lingual consistency in watermarking, including: evaluation, attacking, analysis, and defensing.
-          </div>
-        </div>
-      </div>
-    </div>
-    
-</section>
-
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{he2024watermarks,
-        title={Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models}, 
-        author={Zhiwei He and Binglin Zhou and Hongkun Hao and Aiwei Liu and Xing Wang and Zhaopeng Tu and Zhuosheng Zhang and Rui Wang},
-        year={2024},
-        eprint={2402.14007},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL}
-  }</code></pre>
+      <pre><code>@article{he2024can,
+  title={Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models},
+  author={He, Zhiwei and Zhou, Binglin and Hao, Hongkun and Liu, Aiwei and Wang, Xing and Tu, Zhaopeng and Zhang, Zhuosheng and Wang, Rui},
+  journal={arXiv preprint arXiv:2402.14007},
+  year={2024}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-
         </div>
       </div>
     </div>
@@ -389,7 +301,6 @@
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+<!-- End of Statcounter Code -->
+</body>
+</html>
